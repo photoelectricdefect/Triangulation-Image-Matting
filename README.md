@@ -12,7 +12,7 @@ Instructions: 4 images are needed, two with the object in the image, each with a
 
 #### Solution
 
-<img src="TriangulationMatting/Images/mattingeq.png" width="200" />
+<img src="TriangulationMatting/Images/mattingeq.png" width="200" /> 
 
 Solve the linear least squares problem for each pixel.  
 
