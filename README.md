@@ -1,4 +1,4 @@
-###Blue Screen Matting by Smith & Blinn
+### Blue Screen Matting by Smith & Blinn
 
 For those interested, paper is in the repo along with the necessary files to build the VS Solution.
 
@@ -10,9 +10,9 @@ Instructions: 4 images are needed, two with the object in the image, each with a
 * Eigen [Link](https://eigen.tuxfamily.org/dox/)
     
 
-####Solution
+#### Solution
 
-![Matting Equation](https://github.com/photoelectricdefect/Triangulation-Image-Matting/tree/master/TriangulationMatting/Images/mattingeq.jpg)
+<img src="TriangulationMatting/Images/mattingeq.jpg" width="800" /> ![](TriangulationMatting/Images/mattingeq.jpg)
 
 Solve the linear least squares problem and get the solution.  
 
@@ -20,13 +20,13 @@ Solve the linear least squares problem and get the solution.
 X = A.colPivHouseholderQr().solve(b);
 ```
 
-####Results
+#### Results
 
-![Background 1](https://github.com/photoelectricdefect/Triangulation-Image-Matting/tree/master/TriangulationMatting/Images/back1.jpg)
-![Background 2](https://github.com/photoelectricdefect/Triangulation-Image-Matting/tree/master/TriangulationMatting/Images/back2.jpg)
-![Flowers 1](https://github.com/photoelectricdefect/Triangulation-Image-Matting/tree/master/TriangulationMatting/Images/flowers1.jpg)
-![Flowers 2](https://github.com/photoelectricdefect/Triangulation-Image-Matting/tree/master/TriangulationMatting/Images/flowers2.jpg)
-![Alpha](https://github.com/photoelectricdefect/Triangulation-Image-Matting/tree/master/TriangulationMatting/Images/alpha.jpg)
+<img src="TriangulationMatting/Images/back1.jpg" width="800" /> ![](https://github.com/photoelectricdefect/Triangulation-Image-Matting/tree/master/TriangulationMatting/Images/back1.jpg)
+<img src="TriangulationMatting/Images/back2.jpg" width="800" /> ![](https://github.com/photoelectricdefect/Triangulation-Image-Matting/tree/master/TriangulationMatting/Images/back2.jpg)
+<img src="TriangulationMatting/Images/flowers1.jpg" width="800" /> ![](https://github.com/photoelectricdefect/Triangulation-Image-Matting/tree/master/TriangulationMatting/Images/flowers1.jpg)
+<img src="TriangulationMatting/Images/flowers2.jpg" width="800" /> ![](https://github.com/photoelectricdefect/Triangulation-Image-Matting/tree/master/TriangulationMatting/Images/flowers2.jpg)
+<img src="TriangulationMatting/Images/alpha.jpg" width="800" /> ![](https://github.com/photoelectricdefect/Triangulation-Image-Matting/tree/master/TriangulationMatting/Images/alpha.jpg)
 
 
  
